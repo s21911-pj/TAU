@@ -30,7 +30,7 @@ public class Calculator {
     public long factorialUsingForLoop(long n) {
         long fact = 1;
         if (n > 20) {
-            throw new IllegalArgumentException("To big number for long");
+            throw new IllegalArgumentException("To big number for long type");
         }else
             for (long i = 2; i <= n; i++) {
                 fact = fact * i;
@@ -38,6 +38,9 @@ public class Calculator {
 
             return fact;
         }
+
+
+    public int remainder(int a, int b) {return a % b;}
 
 
 

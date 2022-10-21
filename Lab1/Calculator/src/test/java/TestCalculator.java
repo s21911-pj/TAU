@@ -31,6 +31,7 @@ public class TestCalculator {
         long result = objCalcUnderTest.factorialUsingForLoop(n);
         Assert.assertEquals(expectedResult, result);
     }
+    
     @Test(expected = IllegalArgumentException.class)
     public void tooBigNumberForFactorialMethod() {
         long n = 21;
@@ -73,6 +74,15 @@ public class TestCalculator {
     objCalcUnderTest.divide(8,5);
     Assert.assertEquals(3,3);
     }
+    @Test
+    public void testRemainder() {
+        int a = 13;
+        int b = 4;
+        int expectedResult = 1;
+        int result = objCalcUnderTest.remainder(a, b);
+        Assert.assertEquals(expectedResult, result);
+    }
+
 
     @After
     public void after() {
