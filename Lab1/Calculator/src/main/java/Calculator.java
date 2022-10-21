@@ -12,20 +12,34 @@ public class Calculator {
     }
 
 
-    public long multiply(int a, int b) {
+    public long multiply(long a, long b) {
         return a * b;
     }
 
 
-    public double divide(int a, int b) {
+    public double divide(double a, double b) {
         double result;
         if (b == 0) {
             throw new IllegalArgumentException("Divisor cannot divide by zero");
         } else {
-            result = Double.valueOf(a)/Double.valueOf(b);
+            result = a/b;
         }
         return result;
     }
+
+    public long factorialUsingForLoop(long n) {
+        long fact = 1;
+        if (n > 20) {
+            throw new IllegalArgumentException("To big number for long");
+        }else
+            for (long i = 2; i <= n; i++) {
+                fact = fact * i;
+            }
+
+            return fact;
+        }
+
+
 
 
 }

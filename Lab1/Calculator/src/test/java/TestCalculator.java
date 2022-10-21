@@ -25,6 +25,20 @@ public class TestCalculator {
     }
 
     @Test
+    public void factorial() {
+        long n = 19;
+        long expectedResult = 121645100408832000L;
+        long result = objCalcUnderTest.factorialUsingForLoop(n);
+        Assert.assertEquals(expectedResult, result);
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void tooBigNumberForFactorialMethod() {
+        long n = 21;
+        objCalcUnderTest.factorialUsingForLoop(n);
+
+    }
+
+    @Test
     public void testSubtract() {
         int a = 25; int b = 20;
         int expectedResult = 5;
