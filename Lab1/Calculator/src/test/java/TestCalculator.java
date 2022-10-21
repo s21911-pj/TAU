@@ -1,4 +1,5 @@
 
+import org.junit.After;
 import org.junit.Test;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,20 +11,16 @@ public class TestCalculator {
     public void setUp() {
 
         objCalcUnderTest = new Calculator();
-        int a = 5;
-        int b = 8;
 
     }
 
     @Test
     public void testAdd() {
-        /*int a = 15; int b = -20;*/
-        int expectedResult = 13;
+        int a = 15; int b = -20;
+        int expectedResult = -5;
 
         long result = objCalcUnderTest.add(a, b);
-
-
-        /*Assert.assertEquals(expectedResult, result);*/
+        Assert.assertEquals(expectedResult, result);
 
     }
 
@@ -62,10 +59,11 @@ public class TestCalculator {
     objCalcUnderTest.divide(8,5);
     Assert.assertEquals(3,3);
     }
-   /* class UnitConverterTest {
-        @Test
-        void shouldConvertZeroKilogramValue() {
-            Pound pounds = new Kilogram(BigDecimal.ZERO).toPounds();
-            assertEquals(BigDecimal.ZERO.setScale(4), pounds.value);
-        }*/
+
+    @After
+    public void after() {
+
+        System.out.println("Jesli mnie widzisz znaczy ze to dzialanie jest poprawne :) ");
+
+    }
 }
