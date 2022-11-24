@@ -1,11 +1,8 @@
-LAB 1 :
-2 projects with unit tests in java
+LAB 1 :         2 projects with unit tests in java
 
-Lab 2 :
-2 projects with unit tests in java using maven
+Lab 2 :         2 projects with unit tests in java using maven
 
-Lab 3 :
-SELENIUM TEST:
+Lab 3 :         SELENIUM TEST:
 
 SCENARIUSZE
 
@@ -47,5 +44,4 @@ SCEBARIUSZ 4: Otwiera przeglądarke mozilla , wpisuje login i hasło i sprawdza 
 5) wpisuje hasło
 6) sprawdza czy po wprowadzeniu celowych złych danych otrzyma error 
 
-Lab 4:
-Tank project using mockito in java
+Lab 4:          Tank project using mockito in java
