@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d3228ba-4fed-4234-947b-9fd5a28dd778" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/ProjectEvaluation/selenium1.metadata.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/ProjectEvaluation/selenium1.metadata.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/ProjectEvaluation/selenium1.projects.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/ProjectEvaluation/selenium1.projects.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/FileContentIndex/00734ec4-4a52-4545-ae2c-f10cd6c6e911.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/FileContentIndex/00734ec4-4a52-4545-ae2c-f10cd6c6e911.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/FileContentIndex/3cb5cd11-96fa-4395-9915-8b0cf4b06b50.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/FileContentIndex/3cb5cd11-96fa-4395-9915-8b0cf4b06b50.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/FileContentIndex/9c9689ae-0800-4927-8a09-b9bd9be34c2e.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/FileContentIndex/9c9689ae-0800-4927-8a09-b9bd9be34c2e.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/FileContentIndex/read.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/FileContentIndex/read.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/v17/.futdcache.v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/v17/.futdcache.v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/v17/TestStore/0/000.testlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/v17/TestStore/0/000.testlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/.vs/Selenium1/v17/TestStore/0/testlog.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/.vs/Selenium1/v17/TestStore/0/testlog.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/Selenium1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/Selenium1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/Usings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/Usings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/FluentAssertions.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/FluentAssertions.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/FluentAssertions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/FluentAssertions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/NUnit3.TestAdapter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/NUnit3.TestAdapter.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/NUnit3.TestAdapter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/NUnit3.TestAdapter.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/NuGet.Frameworks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/Selenium1.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/WebDriver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/WebDriver.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/nunit.engine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/nunit.framework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/nunit.framework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/testcentric.engine.metadata.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/testcentric.engine.metadata.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/testhost.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/testhost.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/testhost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/testhost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.BuildWithSkipAnalyzers" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.BuildWithSkipAnalyzers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.CopyComplete" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/Selenium1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/ref/Selenium1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/ref/Selenium1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Debug/net6.0/refint/Selenium1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Debug/net6.0/refint/Selenium1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/Selenium1.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/Selenium1/Selenium1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/Selenium1/Selenium1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/chromedriver_win32.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/chromedriver_win32.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/geckodriver-v0.32.0-win-aarch64.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/geckodriver-v0.32.0-win-aarch64.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/geckodriver-v0.32.0-win32.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/geckodriver-v0.32.0-win32.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab03/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab3/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HzcjIytOj8Eqe0B64R4lJyOIfo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Wezu/IdeaProjects/myTAU/TAU_4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TankTest">
+    <configuration name="TankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TankTest.isRunning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankTest" />
+      <option name="METHOD_NAME" value="isRunning" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TankTest.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankTest" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TankTest.start_IsRunning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankTest" />
+      <option name="METHOD_NAME" value="start_IsRunning" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TankTest.start_with_caterpillars_broken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankTest" />
+      <option name="METHOD_NAME" value="start_with_caterpillars_broken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TankTest" />
+        <item itemvalue="JUnit.TankTest.start_with_caterpillars_broken" />
+        <item itemvalue="JUnit.TankTest.start_IsRunning" />
+        <item itemvalue="JUnit.TankTest.start" />
+        <item itemvalue="JUnit.TankTest.isRunning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d3228ba-4fed-4234-947b-9fd5a28dd778" name="Changes" comment="" />
+      <created>1669291486623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669291486623</updated>
+      <workItem from="1669291487743" duration="7379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Tank.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
