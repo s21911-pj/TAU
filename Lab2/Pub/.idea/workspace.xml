@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77f4b364-63ee-4de9-bc76-5f412de2f0e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Pub.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RunManager" selected="JUnit.TestBar">
     <configuration name="TestBar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pub" />
@@ -111,6 +111,7 @@
       <workItem from="1666368873622" duration="1075000" />
       <workItem from="1666505512473" duration="3871000" />
       <workItem from="1666513467061" duration="594000" />
+      <workItem from="1669219680389" duration="8000" />
     </task>
     <servers />
   </component>
