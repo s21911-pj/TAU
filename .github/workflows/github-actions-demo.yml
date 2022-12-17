@@ -1,18 +1,47 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: Automated test per project
+
+on:
+  push:
+    branches: [ "main" ]
 jobs:
-  Explore-GitHub-Actions:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+    - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          lab1:
+            - 'Lab1/**'
+          lab2:
+            - 'Lab2/**'
+          lab4:
+            - 'Lab4/Tank/**'
+    - name: Set up JDK 17 for Lab4
+      if: steps.filter.outputs.lab4 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '19'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Set up JDK 11 for Lab1 or Lab2
+      if: steps.filter.outputs.lab2 == 'true' || steps.filter.outputs.lab1 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '19'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Test Lab1 project with Maven
+      if: steps.filter.outputs.lab1 == 'true'
+      run: cd 1 && mvn test --file pom.xml
+
+    - name: Test Lab2 project with Maven
+      if: steps.filter.outputs.lab2 == 'true'
+      run: cd 2 && mvn test --file pom.xml
+
+    - name: Test Lab4 project with Maven
+      if: steps.filter.outputs.lab4 == 'true'
+      run: cd 4/library_management_system && mvn test --file pom.xml
