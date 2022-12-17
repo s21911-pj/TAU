@@ -1,5 +1,5 @@
 public class Calculator {
-
+//check calculator automated test
     public Calculator() {
     }
 
