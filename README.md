@@ -45,3 +45,7 @@ SCEBARIUSZ 4: Otwiera przeglądarke mozilla , wpisuje login i hasło i sprawdza 
 6) sprawdza czy po wprowadzeniu celowych złych danych otrzyma error 
 
 Lab 4:          Tank project using mockito in java
+
+
+
+Lab5: Dodane automatyczne testy dla projektu z lab4
