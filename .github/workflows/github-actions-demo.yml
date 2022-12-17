@@ -33,17 +33,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Set up JDK 11 for Lab1 
-      if: steps.filter.outputs.lab2 == 'true' 
-      uses: actions/setup-java@v3
-      with:
-        java-version: '19'
-        distribution: 'temurin'
-        cache: maven
-
-    - name: Test Lab1 project with Maven
-      if: steps.filter.outputs.lab1 == 'true'
-      run: cd Lab1 && mvn test --file pom.xml
 
     - name: Test Lab2 project with Maven
       if: steps.filter.outputs.lab2 == 'true'
