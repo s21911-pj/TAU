@@ -12,8 +12,7 @@ jobs:
       id: filter
       with:
         filters: |
-          lab2:
-            - 'Lab2/**'
+
           lab4:
             - 'Lab4/Tank/**'
     - name: Set up JDK 17 for Lab4
@@ -23,18 +22,9 @@ jobs:
         java-version: '19'
         distribution: 'temurin'
         cache: maven
-    - name: Set up JDK 17 for Lab2
-      if: steps.filter.outputs.lab2 == 'true'
-      uses: actions/setup-java@v3
-      with:
-        java-version: '19'
-        distribution: 'temurin'
-        cache: maven
 
 
-    - name: Test Lab2 project with Maven
-      if: steps.filter.outputs.lab2 == 'true'
-      run: cd Lab2 && mvn test --file pom.xml
+
 
     - name: Test Lab4 project with Maven
       if: steps.filter.outputs.lab4 == 'true'
