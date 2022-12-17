@@ -2,7 +2,7 @@ public class Calculator {
 
     public Calculator() {
     }
-
+/*check something for lab5*/
     public int add(int a, int b) {
         return a + b;
     }
