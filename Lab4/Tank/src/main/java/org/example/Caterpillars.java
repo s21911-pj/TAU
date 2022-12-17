@@ -1,5 +1,5 @@
 package org.example;
-//only for check1
+//only for check2
 public class Caterpillars {
     private boolean caterpillars;
 
