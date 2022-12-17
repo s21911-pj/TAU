@@ -34,7 +34,7 @@ jobs:
         cache: maven
 
     - name: Set up JDK 11 for Lab1 
-      if: steps.filter.outputs.lab2 == 'true' |
+      if: steps.filter.outputs.lab2 == 'true' 
       uses: actions/setup-java@v3
       with:
         java-version: '19'
