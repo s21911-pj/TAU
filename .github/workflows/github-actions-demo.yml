@@ -1,0 +1,47 @@
+name: Automated test per project
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          lab1:
+            - 'Lab1/**'
+          lab2:
+            - 'Lab2/**'
+          lab4:
+            - 'Lab4/Tank/**'
+    - name: Set up JDK 17 for Lab4
+      if: steps.filter.outputs.lab4 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '19'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Set up JDK 11 for Lab1 or Lab2
+      if: steps.filter.outputs.lab2 == 'true' || steps.filter.outputs.lab1 == 'true'
+      uses: actions/setup-java@v3
+      with:
+        java-version: '19'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Test Lab1 project with Maven
+      if: steps.filter.outputs.lab1 == 'true'
+      run: cd 1 && mvn test --file pom.xml
+
+    - name: Test Lab2 project with Maven
+      if: steps.filter.outputs.lab2 == 'true'
+      run: cd 2 && mvn test --file pom.xml
+
+    - name: Test Lab4 project with Maven
+      if: steps.filter.outputs.lab4 == 'true'
+      run: cd 4/library_management_system && mvn test --file pom.xml
