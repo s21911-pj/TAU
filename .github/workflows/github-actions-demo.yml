@@ -43,12 +43,12 @@ jobs:
 
     - name: Test Lab1 project with Maven
       if: steps.filter.outputs.lab1 == 'true'
-      run: cd 1 && mvn test --file pom.xml
+      run: cd Lab1 && mvn test --file pom.xml
 
     - name: Test Lab2 project with Maven
       if: steps.filter.outputs.lab2 == 'true'
-      run: cd 2 && mvn test --file pom.xml
+      run: cd Lab2 && mvn test --file pom.xml
 
     - name: Test Lab4 project with Maven
       if: steps.filter.outputs.lab4 == 'true'
-      run: cd 4/library_management_system && mvn test --file pom.xml
+      run: cd Lab4/Tank && mvn test --file pom.xml
