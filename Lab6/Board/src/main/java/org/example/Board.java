@@ -1,6 +1,10 @@
 package org.example;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Board {
 
@@ -116,6 +120,77 @@ public class Board {
 
         return false;
     }
+
+    public void moveWithKeyboardInput() {
+        int currentRow = 0;
+        int currentCol = 0;
+        boolean[][] visited = new boolean[ROWS][COLS];
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // Find starting position
+        for (int row = 0; row < ROWS; row++) {
+            for (int col = 0; col < COLS; col++) {
+                if (board[row][col] == START) {
+                    currentRow = row;
+                    currentCol = col;
+                    break;
+                }
+            }
+        }
+
+        while (true) {
+            printBoard();
+            System.out.println("You are currently at position (" + currentRow + ", " + currentCol + ").");
+            System.out.println("Enter W to move up, S to move down, A to move left, D to move right, or Q to quit.");
+            String input;
+            try {
+                input = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+                return;
+            }
+
+            if (input.equals("W")) {
+                if (currentRow - 1 >= 0 && !isObstacle(currentRow - 1, currentCol)) {
+                    currentRow--;
+                } else {
+                    System.out.println("Cannot move up.");
+                }
+            } else if (input.equals("S")) {
+                if (currentRow + 1 < ROWS && !isObstacle(currentRow + 1, currentCol)) {
+                    currentRow++;
+                } else {
+                    System.out.println("Cannot move down.");
+                }
+            } else if (input.equals("A")) {
+                if (currentCol - 1 >= 0 && !isObstacle(currentRow, currentCol - 1)) {
+                    currentCol--;
+                } else {
+                    System.out.println("Cannot move left.");
+                }
+            } else if (input.equals("D")) {
+                if (currentCol + 1 < COLS && !isObstacle(currentRow, currentCol + 1)) {
+                    currentCol++;
+                } else {
+                    System.out.println("Cannot move right.");
+                }
+            } else if (input.equals("Q")) {
+                System.out.println("Quitting...");
+                return;
+            } else {
+                System.out.println("Invalid input. Try again.");
+            }
+
+            visited[currentRow][currentCol] = true;
+            if (board[currentRow][currentCol] == STOP) {
+                System.out.println("Reached the stop position!");
+                return;
+            }
+        }
+    }
+
+
+
 }
 /*        // Recursively move to all possible next positions
         if (move(row - 1, col, visited) || move(row + 1, col, visited) || move(row, col - 1, visited) || move(row, col + 1, visited)) {
