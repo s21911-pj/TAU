@@ -49,3 +49,6 @@ Lab 4:          Tank project using mockito in java
 
 
 Lab5: Dodane automatyczne testy dla projektu z lab4
+
+
+LAB6: Aplikacja symulująca gre z testami sprawdzającymi poszczególne ruchy
