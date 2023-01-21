@@ -51,4 +51,15 @@ Lab 4:          Tank project using mockito in java
 Lab5: Dodane automatyczne testy dla projektu z lab4
 
 
-LAB6: Aplikacja symulująca gre z testami sprawdzającymi poszczególne ruchy
+LAB6: Aplikacja symulująca gre z testami sprawdzającymi poszczególne ruchy:
+1) Test sprawdzający ruch po planszy w góre
+2) Test sprawdzający ruch po planszy w dół
+3) Test sprawdzający ruch po planszy w lewo
+4) Test sprawdzający ruch po planszy w prawo
+5) Test sprawdzający ruch wykraczający poza  planszę - testowanie ruchu poza górną granicę
+6) Test sprawdzający ruch wykraczający poza  planszę - testowanie ruchu poza dolną granicę
+7) Test sprawdzający ruch wykraczający poza  planszę - testowanie ruchu poza lewą granicę
+8) Test sprawdzający ruch wykraczający poza  planszę - testowanie ruchu poza prawą granicę
+9) Sprawdzenie czy pole jest przeszkodą
+10) Testowanie działania metody z pozycją startową i końcową ustawionymi na granicy planszy
+110 Testowanie działania metody z pozycją startową i końcową ustawionymi na jednym polu
