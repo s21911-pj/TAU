@@ -62,4 +62,4 @@ LAB6: Aplikacja symulująca gre z testami sprawdzającymi poszczególne ruchy:
 8) Test sprawdzający ruch wykraczający poza  planszę - testowanie ruchu poza prawą granicę
 9) Sprawdzenie czy pole jest przeszkodą
 10) Testowanie działania metody z pozycją startową i końcową ustawionymi na granicy planszy
-110 Testowanie działania metody z pozycją startową i końcową ustawionymi na jednym polu
+11) Testowanie działania metody z pozycją startową i końcową ustawionymi na jednym polu
